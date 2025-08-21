@@ -33,6 +33,8 @@ body {
 .logo {
     border-radius: 50%;
     margin: 0 1rem;
+    width: 80px;
+    height: 80px;
 }
 
 .nav-name {
@@ -44,9 +46,12 @@ body {
 }
 .nav-name :hover{
     color: sandybrown;
+    transition: all 0.3s ease;
+
+    
     
 }
-.aremove{
+.move{
     text-decoration: none;
 }
 .nav-left{
@@ -80,13 +85,16 @@ body {
     height: 100vh;
 }
 .hero-img {
- 
     max-width: 100%;
     height: auto;
     margin: 0 auto;
     display: block;
-    
-  
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(13, 214, 16, 0.543);
+  &:hover {
+    transform: scale(1.05);
+  }
+    transition: transform 0.3s ease;
 }
 
 .hero-left,
@@ -159,3 +167,4 @@ body {
         max-width: 1320px;
     }
 }
+
