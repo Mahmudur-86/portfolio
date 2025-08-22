@@ -121,6 +121,103 @@ body {
     text-align: justify;
 }
 
+/* resume section */
+/* projects section */
+.resume-container{
+    margin-top: 1rem;
+    padding: 6.5rem 1rem 0 1rem;
+    min-height: 100vh;
+}
+
+.subtitle{
+    font-size: 1.25rem;
+    line-height: 1.6rem;
+    margin-bottom: 0;
+}
+.line{
+    background-color: blue;
+    width: 100%;
+    height: 2px;
+    margin: 1rem 0 2rem 0;
+}
+.inner-line{
+    background-color: chocolate;
+    width: 50px;
+    height: 2px;
+    margin: 1rem 0 2rem 0;
+}
+
+.resume-sub-container{
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center; */
+
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: center;
+
+}
+.resume-list{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2,minmax(0,1fr));
+    align-items: center;
+    grid: 1.25rem;
+border-left: 5px solid #333;
+
+}
+.resume-duration-container{
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+}
+.round-div{
+    height: 24px;
+    width: 24px;
+    background-color: #333;
+    border-radius: 50%;
+   position: absolute;
+   left: -15px;
+}
+.resume-duration{
+    background-color: black;
+    width: auto;
+    margin: 1rem 0;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 0.875rem;
+line-height: 1.25rem;
+text-align: center;
+}
+.resume-university{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.resume-subject{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: #555;
+}
+.resume-result{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: #666;
+    margin-bottom: 0.5rem;
+}
+
+
+
+
+
+
+
+
+
+    
 
 
 
